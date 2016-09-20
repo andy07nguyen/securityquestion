@@ -1,0 +1,182 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #25b4e9;
+}
+
+
+/* Box */
+div.appBox {
+	position: absolute;
+	padding-top: 40px;
+	background-color: white;
+	z-index: -1; 
+	top: 110px;
+	left: 313px;
+	width: 50%;
+	height: 400px;
+	border-radius: 15px;
+}
+
+/* Title */
+h2.title {
+	position: relative;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #25b4e9;
+	top: 150px;
+}
+
+h5#question0 {
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	color: black;
+	top: 240px;
+	left: 375px;
+}
+
+h5#question1 {
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	color: black;	
+	top: 300px;
+	left: 375px;
+}
+
+h5#question2 {
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	color: black;	
+	top: 360px;
+	left: 375px;
+}
+
+h5#question3 {
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	color: black;
+	top: 240px;
+	left: 675px;
+}
+
+h5#question4 {
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	color: black;
+	top: 300px;
+	left: 675px;
+}
+
+h5#question5 {
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	color: black;
+	top: 360px;
+	left: 675px;
+}
+
+
+/* Text Boxes */
+input.box0 {
+	position: absolute;
+	top: 260px;
+	left: 375px;
+	width: 16%;
+	height: 20px;
+	border-radius: 5px;
+}
+
+input.box1 {
+	position: absolute;
+	top: 320px;
+	left: 375px;
+	width: 16%;
+	height: 20px;
+	border-radius: 5px;
+}
+
+input.box2 {
+	position: absolute;
+	top: 380px;
+	left: 375px;
+	width: 16%;
+	height: 20px;
+	border-radius: 5px;
+}
+
+input.box3 {
+	position: absolute;
+	top: 260px;
+	left: 675px;
+	width: 16%;
+	height: 20px;
+	border-radius: 5px;
+}
+
+input.box4 {
+	position: absolute;
+	top: 320px;
+	left: 675px;
+	width: 16%;
+	height: 20px;
+	border-radius: 5px;
+}
+
+input.box5 {
+	position: absolute;
+	top: 380px;
+	left: 675px;
+	width: 16%;
+	height: 20px;
+	border-radius: 5px;
+}
+
+
+/* Submit Button */
+button.button {
+	position: absolute;
+	top: 470px;
+	width: 25%;
+	left: 473px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border-style: ridge;
+	background-color: #ffcc00;
+	border-color: #ffcc00;
+	color: white;
+}
+
+button.button:hover {
+	background-color: #e9446b;
+}
+
+button.button:active {
+	background-color: #a00000;
+}
+
+
+/* CORRECT & INCORRECT */
+h3.correct {
+	position: absolute;
+	color: green;
+	left: 530px;
+	top: 430px;	
+}
+
+h3.incorrect {
+	position: absolute;
+	color: red;
+	left: 655px;
+	top: 430px;
+}
+
+
